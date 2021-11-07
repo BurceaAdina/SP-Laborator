@@ -1,32 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
-//import java.util.Collection;
 
 public class Book {
     private String title;
     TableOfContents tableofcontents;
     private List<Author> authors = new ArrayList<>();
     private List<Chapter> chapters = new ArrayList<>();
-    //private Collection<Author> authors;
-    //private Collection<Chapter> chapters = new Collection();
-    public Book() {
-
-    }
 
     public Book(String title) {
         this.title = title;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public List<Author> getAuthors() {
-        return authors;
-    }
-
-    public List<Chapter> getChapters() {
-        return chapters;
     }
 
     public void addAuthor(Author author) {
@@ -44,6 +26,16 @@ public class Book {
     }
 
     public void print() {
+        System.out.println("Book: " + title);
+		System.out.println();
+		System.out.println("Authors: ");
+		for (Author a : authors) {
+			a.print();
+		}
+		System.out.println();
+		for (Chapter chapter : chapters) {
+			chapter.print();
+		}
 
     }
 }
