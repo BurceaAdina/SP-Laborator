@@ -1,7 +1,7 @@
 # Feedback lab2:
 
 nothing
-
+ Verificati din nou, va rog! A fost pus mai demult pe master si l am mutat pe main sa il vedeti
 # Feedback lab3:
 https://github.com/BurceaAdina/SP-Laborator/tree/2f5131b44a820bb32022bd4db67f17eb4484fdf8
 
