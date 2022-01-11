@@ -16,3 +16,8 @@ all good
 https://github.com/BurceaAdina/SP-Laborator/tree/13a5d8bf9e8732cba26f7ac6205ba9412ea484d5
 
 with bonus Allingment and no singleton implementation 
+
+# feedback lab6:
+missing visitor implementations, just definitions.
+
+# Proposed grade: 9
